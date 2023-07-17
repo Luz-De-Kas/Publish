@@ -1,21 +1,5 @@
 /* /Pages/Index.razor.rz.scp.css */
-.container[b-lpfdb88h62] {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px;
-    text-align: center;
-    background-color: #111;
-    border-radius: 20px;
-    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
-    color: #FFF;
-}
 
-h1[b-lpfdb88h62] {
-    font-size: 48px;
-    margin-bottom: 30px;
-    color: #00ffff; /* Color fluorescente */
-    text-shadow: 2px 2px 4px #000;
-}
 
 .story[b-lpfdb88h62] {
     margin-bottom: 50px;
@@ -55,14 +39,8 @@ h1[b-lpfdb88h62] {
     margin: 10px;
 }
 
-img[b-lpfdb88h62] {
-    max-width: 100%;
-    height: auto;
-}
 
-.banner-img[b-lpfdb88h62] {
-    max-height: 200px; /* Controla la altura del banner */
-}
+
 
 .participants img[b-lpfdb88h62] {
     width: 35px; /* Cambia el tamaño de las imágenes de los participantes */
@@ -82,6 +60,6 @@ img[b-lpfdb88h62] {
     transition: background-color 0.5s;
 }
 
-    .start-button:hover[b-lpfdb88h62] {
-        background-color: #FFD700;
-    }
+.start-button:hover[b-lpfdb88h62] {
+    background-color: #FFD700;
+}

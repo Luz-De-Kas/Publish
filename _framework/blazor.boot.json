@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "Microsoft.AspNetCore.Components.dll": "sha256-E3V6PMEfPFQzT8gIUL6RpeyunJQfg+Z8Gvun0J\/9Qt4=",
+      "Microsoft.AspNetCore.Components.dll": "sha256-ZXlO\/d3EkMciCySugEaMfkW\/tAZkuACHZ40kb95t1cY=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-Zyoe5SFTyAg5NAXUWgAMqlDcKsX1UHEHReAJiBe7mok=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-PTSKKTHwdz5fL0+3rx9EsDSIbwi8jHHDx2mIx2Rxavo=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-X\/f4fDl2cuIRXeWHhK\/f2UqQbFioD+RU4a4CEh0zrrQ=",
@@ -21,16 +21,16 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-eXvGx2jcjpTPEJoAHBsW\/VuMPbNyyU+AsuhPmkzSSRY=",
       "Microsoft.JSInterop.dll": "sha256-MDyXv2LOCRBiedWjjGsO5qugAxFyrN8GEpO48gvCRTQ=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-GvJxInUwsjF3BeE2f8yKSiyDaZ8qapjihQJiJbgEDp4=",
-      "Skateroom.dll": "sha256-iim5X3wvZLvU1rlYeO4\/Q+zIKP+YbLJbSPJ9KN47LPs=",
+      "Skateroom.dll": "sha256-yOsSUDEZEDhD+UDeBqfGa1ZzjzR\/eiZV\/hvZdnNnx4M=",
       "System.Collections.Concurrent.dll": "sha256-M5QNIjWTWuKn8+IKAVWEdjk7OB2HhnQd\/jmEz0YFfTQ=",
-      "System.Collections.dll": "sha256-aJhAeYGDSzdDNNDwyCkUC+xHhttxMTFdqMGYQuuwo3U=",
+      "System.Collections.dll": "sha256-+WppM6ouE4PB+oJ3z7SL6d4P+EVpgapWrA6ut1vccpI=",
       "System.ComponentModel.dll": "sha256-aF2ysxa8maJxS6cn0NMTkjFFkQQ2EGqlsZXcjbHKHAo=",
       "System.Memory.dll": "sha256-UX+onNe4XrzDF4D77LZbU62NxGG584NgorjUWc44IuA=",
       "System.Net.Http.dll": "sha256-6V3ABEQj5gbmzvx+RjCwbhZaWFdF74WtPczK6R8pGRA=",
       "System.Net.Primitives.dll": "sha256-+1CNanXdba7vkfhzuxJnVEcMKUY7jwFX7CeR8uuCyjk=",
       "System.Private.CoreLib.dll": "sha256-BzaJjEwMOCnLKmv24EcGG+AwVnQwrB2os9JNGlM9lBU=",
       "System.Private.Uri.dll": "sha256-O0BYL2iYB\/9nSmwwRzs9sd6ghIOJaLSRY\/SPsHpdmq0=",
-      "System.Runtime.dll": "sha256-vDacOHwLPqjKNoPCGuTi5Doanksyzjg80TMJnS\/Xek8=",
+      "System.Runtime.dll": "sha256-WZITP4vnFas13QhG06A6xiRNEwayPvtIofqtDBFW5yw=",
       "System.Runtime.InteropServices.JavaScript.dll": "sha256-R4PIkKbTbca5y8VIIzWt+Ye2tZkg6i3yeE5p7g81y2w=",
       "System.Text.Encodings.Web.dll": "sha256-d2KyUrvcwKoW1p2fFbn+9S8MAFFWpDvA\/McxgmUYZq0=",
       "System.Text.Json.dll": "sha256-wHVVotXoV95Bgzi2UpueilYDSQ1JMNPP8XWVkDmaJLE="

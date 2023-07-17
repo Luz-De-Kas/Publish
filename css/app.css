@@ -91,16 +91,40 @@ h1 {
     gap: 10px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 .banner-img {
-    max-height: 200px; /* Controla la altura del banner */
+    display: block;
     width: 100%;
-    height: auto;
+    min-height: 200px; /* Ajusta este valor a tus necesidades */
+    object-fit: cover;
+    margin: 0 auto;
 }
+
+/*.banner-img-challenger {
+    display: block;
+    width: auto;
+    max-height: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+*/
+
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #00ffff; /* Color fluorescente */
+    text-shadow: 2px 2px 4px #000;
+}
+
+h2 {
+    font-size: 34px;
+    margin-bottom: 30px;
+    color: #00ffff; /* Color fluorescente */
+    text-shadow: 2px 2px 4px #000;
+}
+
 
 .participant-img {
     width: 60px; /* Cambia el tamaño de las imágenes de los participantes */
@@ -140,7 +164,7 @@ img {
     text-shadow: 1px 1px 2px #000;
 }
 
-.skateroom-info img {
+.skateroom-info img, .skateroom-info video {
     width: 90%;
     margin: 20px auto;
     display: block;
@@ -148,3 +172,107 @@ img {
     box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.2);
 }
 
+/* TEMPLATE */
+
+body {
+    background-color: #282C34; /* Coloca aquí el color de fondo de tu página principal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.challenge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    padding: 40px;
+    text-align: center;
+    background-color: #111;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #111;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+    color: #FFF;
+}
+
+.button-send-answer {
+    display: inline-flex;
+    flex-direction: column;
+    max-width: auto; /* Ajusta el valor según tus necesidades */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+/*.challenge-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}*/
+.challenge-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.title{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+
+.challenge-description {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.challenge-puzzle {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.next-button {
+    background-color: #FDB813;
+    color: #000;
+    border: none;
+    padding: 20px 40px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.2);
+    transition: background-color 0.5s;
+    margin-top: 20px;
+}
+
+    .next-button:hover {
+        background-color: #FFD700;
+    }
+
+label {
+    color: #FFF;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
