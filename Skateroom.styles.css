@@ -1,0 +1,87 @@
+/* /Pages/Index.razor.rz.scp.css */
+.container[b-lpfdb88h62] {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #111;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+    color: #FFF;
+}
+
+h1[b-lpfdb88h62] {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #00ffff; /* Color fluorescente */
+    text-shadow: 2px 2px 4px #000;
+}
+
+.story[b-lpfdb88h62] {
+    margin-bottom: 50px;
+}
+
+.intro[b-lpfdb88h62] {
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.story-text[b-lpfdb88h62] {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.participants h2[b-lpfdb88h62],
+.skateroom-info h2[b-lpfdb88h62] {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #00ffff; /* Color fluorescente */
+    text-shadow: 1px 1px 2px #000;
+}
+
+.participants ul[b-lpfdb88h62] {
+    list-style-type: circle;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 1.6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.participants li[b-lpfdb88h62] {
+    margin: 10px;
+}
+
+img[b-lpfdb88h62] {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-img[b-lpfdb88h62] {
+    max-height: 200px; /* Controla la altura del banner */
+}
+
+.participants img[b-lpfdb88h62] {
+    width: 35px; /* Cambia el tamaño de las imágenes de los participantes */
+    height: 45px; /* Cambia el tamaño de las imágenes de los participantes */
+    border-radius: 5px;
+}
+
+.start-button[b-lpfdb88h62] {
+    background-color: #FDB813;
+    color: #000;
+    border: none;
+    padding: 20px 40px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.2);
+    transition: background-color 0.5s;
+}
+
+    .start-button:hover[b-lpfdb88h62] {
+        background-color: #FFD700;
+    }
