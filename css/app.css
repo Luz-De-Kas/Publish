@@ -32,16 +32,7 @@ h1:focus {
     }
 
 
-.container {
-    max-width: 1200px; /* Aumenta el ancho de la página */
-    margin: 0 auto;
-    padding: 40px;
-    text-align: center;
-    background: #111 url('img/world.jpg') no-repeat center center / cover;
-    border-radius: 20px;
-    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
-    color: #FFF;
-}
+
 
 h1 {
     font-size: 48px;
@@ -95,10 +86,11 @@ h1 {
 .banner-img {
     display: block;
     width: 100%;
-    min-height: 200px; /* Ajusta este valor a tus necesidades */
+    height: 100px; /* Ajusta este valor a tus necesidades */
     object-fit: cover;
     margin: 0 auto;
 }
+
 
 /*.banner-img-challenger {
     display: block;
@@ -178,7 +170,7 @@ body {
     background-color: #282C34; /* Coloca aquí el color de fondo de tu página principal */
     display: flex;
     justify-content: center;
-    align-items: center;
+    /*align-items: flex-start;*/
     height: 100vh;
     margin: 0;
     color: #FFF;
@@ -191,17 +183,19 @@ body {
     align-items: center;
     justify-content: center;
     width: 80vw;
-    padding: 40px;
+    padding: 10px 40px 0 40px;
     text-align: center;
     background-color: #111;
     border-radius: 20px;
     box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
 }
 
+
 .container {
-    max-width: 1400px;
+    max-width: 1200px; /* Aumenta el ancho de la página */
+    min-width: 900px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 10px 40px 30px 40px;
     text-align: center;
     background-color: #111;
     border-radius: 20px;
@@ -229,7 +223,7 @@ body {
 }
 
 .title{
-    margin-top: 100px;
+    /*margin-top: 100px;*/
     margin-bottom: 20px;
 }
 
